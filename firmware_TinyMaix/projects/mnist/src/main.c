@@ -7,12 +7,10 @@
 #include "../inc/main.h"       /* <= own header */
 
 #include "systemclock.h"
-
 #include "printf.h"
-
 #include "uart.h"
 #include "gpio.h"
-//#include "MMA7260Q.h"
+
 
 
 #include "fpu_init.h"
@@ -25,14 +23,10 @@
 #include "led.h"
 /* Header con los coeficientes del filtro a utilizar */
 #define MARGIN 20			/*!< Distance in pixels from left border to start writing */
-/*
-#define ARM_MATH_CM4
-#define __FPU_PRESENT 1
-#include "arm_math.h"
-#include "arm_const_structs.h"
-*/
+
+#define OLED	1
 LPC_USART_T* UART = LPC_USART2;
-//#include "stdio.h"
+
 #include "tinymaix.h"
 #include "Syscalls.h"
 #define INCBIN_STYLE INCBIN_STYLE_SNAKE
@@ -150,11 +144,13 @@ static void parse_output(tm_mat_t* outs)
         }
     }
     TM_PRINTF("### Predict output is: Number %d\r\n", maxi);
+	#if OLED
     ILI9341DrawString(MARGIN, 150,"Predict output is:", &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawInt(ILI9341_WIDTH/2, 190, maxi , 1, &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawString(MARGIN, 230,"Prob:", &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawInt(MARGIN + 11*6, 230, maxp*100 , 2, &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawString(MARGIN + 11*8, 230,"%", &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
+	#endif
     return;
 }
 serial_config UART_USB;
@@ -168,10 +164,12 @@ int main(void)
 	GPIOOff(GPIO_T_FIL3);
 
 	LedsInit();
+	#if OLED
 	ILI9341Init(SPI_1, GPIO_1, GPIO_5, GPIO_3);
 	ILI9341Rotate(ILI9341_Portrait_2);
 	ILI9341DrawString(ILI9341_WIDTH/2-11*5, 20,"mnist demo", &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
 	ILI9341DrawPicture(ILI9341_WIDTH/2 - (28/2), 90, 28, 28, pic_3);
+	#endif
 	/* Configuración de UART */
 	UART_USB.baud_rate = 115200;
 	UART_USB.port = SERIAL_PORT_PC;

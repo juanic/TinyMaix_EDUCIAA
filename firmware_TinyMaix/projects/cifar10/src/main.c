@@ -22,7 +22,6 @@
 
 
 
-
 LPC_USART_T* UART = LPC_USART2;
 
 

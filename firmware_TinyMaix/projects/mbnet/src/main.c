@@ -20,18 +20,13 @@
 #include "spi.h"
 #include "led.h"
 
-#define ARM_MATH_CM4
-#define __FPU_PRESENT 1
-#include "arm_math.h"
-#include "arm_const_structs.h"
-
 LPC_USART_T* UART = LPC_USART2;
-//#include "stdio.h"
+
 #include "tinymaix.h"
 #include "Syscalls.h"
 
 #define MARGIN 20			/*!< Distance in pixels from left border to start writing */
-
+#define OLED	1
 #define IMG_L 96
 //#define IMG   1	// Tiger
 #define IMG   2	// Nautilus
@@ -136,6 +131,7 @@ static void parse_output(tm_mat_t* outs)
         }
     }
     TM_PRINTF("### Predict output is: Class %d (%s), Prob %.3f\r\n", maxi, labels[maxi], maxp);
+#if OLED
     ILI9341DrawString(MARGIN, 190,"### Predict output is:", &font_7x10, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawString(MARGIN, 210,"Class", &font_7x10, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawInt(MARGIN + 7*6, 210, maxi , 4, &font_7x10, ILI9341_BLACK, ILI9341_WHITE);
@@ -143,6 +139,7 @@ static void parse_output(tm_mat_t* outs)
     ILI9341DrawInt(MARGIN + 7*6, 230, maxp*100 , 2, &font_7x10, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawString(MARGIN + 7*8, 230,"%", &font_7x10, ILI9341_BLACK, ILI9341_WHITE);
     ILI9341DrawString(MARGIN, 250, labels[maxi], &font_7x10, ILI9341_BLACK, ILI9341_WHITE);
+#endif
     return;
 }
 
@@ -157,12 +154,13 @@ int main(int argc, char** argv)
 	UART_USB.port = SERIAL_PORT_PC;
 	UART_USB.pSerial = NULL;
 	UartInit(&UART_USB);
-
+#if OLED
 	ILI9341Init(SPI_1, GPIO_1, GPIO_5, GPIO_3);
 	ILI9341Rotate(ILI9341_Portrait_2);
 	ILI9341DrawString(ILI9341_WIDTH/2-11*5, 20,"mbnet demo", &font_11x18, ILI9341_BLACK, ILI9341_WHITE);
 	ILI9341DrawPicture(ILI9341_WIDTH/2 - (96/2), 90, 96, 96, pic_lcd);
-    TM_PRINTF("mbnet demo\r\n");
+#endif
+	TM_PRINTF("mbnet demo\r\n");
     tm_mdl_t mdl;
 
     tm_mat_t in_uint8 = {3,IMG_L,IMG_L,3, (mtype_t*)pic};
