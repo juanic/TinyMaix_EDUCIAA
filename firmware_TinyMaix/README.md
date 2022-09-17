@@ -35,6 +35,8 @@ MCUXpresso IDE v11.2.0
 | O0 SIMD | 2.95  | 91.17 | 626.67 | 653.85  |      |
 | O1 SIMD | 2.95  | 91.17 | 626.67 | XXX     |      |
 
+Poor performance compared to similar devices, I checked the time measuremnt toggling a pin and the measurements with the osciloscope agrreds with the 
+terminal output, I migth be missing something in the porting.
 
 ## Author
 
