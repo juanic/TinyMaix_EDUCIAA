@@ -15,7 +15,7 @@
 ## Board
 
 EDU-CIAA  
-
+<a href="assets/edu_oled.png"><img width=300 src="assets/edu_oled.jpg"/></a>
 
 ## Development Environment
 
