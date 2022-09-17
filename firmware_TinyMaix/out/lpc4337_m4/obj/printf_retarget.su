@@ -1,0 +1,2 @@
+uart_18xx_43xx.h:512:24:Chip_UART_ReadLineStatus	16	static
+printf_retarget.c:10:6:_putchar	16	static

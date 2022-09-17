@@ -1,0 +1,5 @@
+tm_layers.c:104:32:tml_conv2d_dwconv2d	344	static
+tm_layers.c:218:32:tml_gap	64	static
+tm_layers.c:240:32:tml_fc	96	static
+tm_layers.c:258:32:tml_softmax	80	static
+tm_layers.c:289:32:tml_reshape	32	static

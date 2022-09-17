@@ -1,0 +1,4 @@
+tm_model.c:17:32:tm_load	32	static
+tm_model.c:44:28:tm_unload	16	static
+tm_model.c:52:32:tm_preprocess	56	static
+tm_model.c:88:32:tm_run	224	static

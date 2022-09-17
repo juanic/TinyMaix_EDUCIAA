@@ -1,0 +1,48 @@
+var group___u_s_b_d___h_w =
+[
+    [ "USBD_HW_API", "struct_u_s_b_d___h_w___a_p_i.html", [
+      [ "ClrStallEP", "struct_u_s_b_d___h_w___a_p_i.html#a72e54621b0cb3e82ac1cc1595d9a1067", null ],
+      [ "ConfigEP", "struct_u_s_b_d___h_w___a_p_i.html#a1d22a234f082345d2e3b44693f52437a", null ],
+      [ "Configure", "struct_u_s_b_d___h_w___a_p_i.html#a25d9ab77af329aa3aa97d8cf8c69bd39", null ],
+      [ "Connect", "struct_u_s_b_d___h_w___a_p_i.html#a0aa79cfec1d36414f1cbc3268b96cb19", null ],
+      [ "DirCtrlEP", "struct_u_s_b_d___h_w___a_p_i.html#a232054acbf6a7ee115c2079ef29eacb3", null ],
+      [ "DisableEP", "struct_u_s_b_d___h_w___a_p_i.html#a7873edd36bbc6392e0ec2768c8a5d770", null ],
+      [ "EnableEP", "struct_u_s_b_d___h_w___a_p_i.html#a98007fb59ff30d019d166c907dc9ae74", null ],
+      [ "EnableEvent", "struct_u_s_b_d___h_w___a_p_i.html#a8556c919546438e9ca184c460cd1daa9", null ],
+      [ "ForceFullSpeed", "struct_u_s_b_d___h_w___a_p_i.html#ac4a7b25e6c9ccede46fc9b8185325e39", null ],
+      [ "GetMemSize", "struct_u_s_b_d___h_w___a_p_i.html#a59a65bd037723d735b684c308d99fc54", null ],
+      [ "Init", "struct_u_s_b_d___h_w___a_p_i.html#adfa3d0348994e49354243951f2ac95c9", null ],
+      [ "ISR", "struct_u_s_b_d___h_w___a_p_i.html#a692e7cd9ee17c66281daad517ab5636d", null ],
+      [ "ReadEP", "struct_u_s_b_d___h_w___a_p_i.html#a637042da839963e43c354ea184582080", null ],
+      [ "ReadReqEP", "struct_u_s_b_d___h_w___a_p_i.html#a24326b43822367a3c7ce46ffe70c7087", null ],
+      [ "ReadSetupPkt", "struct_u_s_b_d___h_w___a_p_i.html#ae8e43fb5e3029186b858971203735064", null ],
+      [ "Reset", "struct_u_s_b_d___h_w___a_p_i.html#a1d4278c750d621f59f3b25c28c46c263", null ],
+      [ "ResetEP", "struct_u_s_b_d___h_w___a_p_i.html#a629b49eb3e97f88baebfd125643787ae", null ],
+      [ "SetAddress", "struct_u_s_b_d___h_w___a_p_i.html#a6ebb5432603102039aade6822b082c8f", null ],
+      [ "SetStallEP", "struct_u_s_b_d___h_w___a_p_i.html#a320c4cb40c872179e8a53e3ab028e1c2", null ],
+      [ "SetTestMode", "struct_u_s_b_d___h_w___a_p_i.html#a09ee889ca9547f99112dd8d0655f7e7b", null ],
+      [ "WakeUp", "struct_u_s_b_d___h_w___a_p_i.html#aaf44f0d6be8e7e49782addd889cc7b98", null ],
+      [ "WakeUpCfg", "struct_u_s_b_d___h_w___a_p_i.html#a9b6402065d4944bbd58235202fbd979f", null ],
+      [ "WriteEP", "struct_u_s_b_d___h_w___a_p_i.html#a6565f11d655f825d13c9d197925fd1cb", null ]
+    ] ],
+    [ "USBD_HW_API_T", "group___u_s_b_d___h_w.html#gab8f021143b9df313794941277f416955", null ],
+    [ "USBD_EVENT_T", "group___u_s_b_d___h_w.html#ga61dde6aa35d2912927ef1b185eedaa13", [
+      [ "USB_EVT_SETUP", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a8d26afb2e56f4b1b788321a0d1633b33", null ],
+      [ "USB_EVT_OUT", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13ad720a106a796d05d1dd52fb0b021be67", null ],
+      [ "USB_EVT_IN", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13aa284007e2d06d2f9241618b55c1bcd3a", null ],
+      [ "USB_EVT_OUT_NAK", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a8966a8816143f41ac6aafd7215151f88", null ],
+      [ "USB_EVT_IN_NAK", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13af973a80c8f31a5c9aa320b15cd230434", null ],
+      [ "USB_EVT_OUT_STALL", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a3e17b2dcf495ff4befaeba2718affae4", null ],
+      [ "USB_EVT_IN_STALL", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a1ba247a8c3cdc166098e817ec2808777", null ],
+      [ "USB_EVT_OUT_DMA_EOT", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a3a3b0dc5766c4d17bd6d2daea5812fbc", null ],
+      [ "USB_EVT_IN_DMA_EOT", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13aaddab8476ea17ac9fb4e10796bc7c633", null ],
+      [ "USB_EVT_OUT_DMA_NDR", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a744297c96c9296f311a28da97df03001", null ],
+      [ "USB_EVT_IN_DMA_NDR", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a6c66edac1510b9e9741a8f5019142214", null ],
+      [ "USB_EVT_OUT_DMA_ERR", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13ac469035908127847ebb32fd51a0a33bc", null ],
+      [ "USB_EVT_IN_DMA_ERR", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a2e9c73676bebd4b0c4ebb412c2a53af4", null ],
+      [ "USB_EVT_RESET", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13ac9da611df8ba920792bb1388c70fbc53", null ],
+      [ "USB_EVT_SOF", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a327107e15682a2403deec540ca209670", null ],
+      [ "USB_EVT_DEV_STATE", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13ae30ace519ceb787d84de55ebf5e4901e", null ],
+      [ "USB_EVT_DEV_ERROR", "group___u_s_b_d___h_w.html#gga61dde6aa35d2912927ef1b185eedaa13a7e46c0177f969c8be4e4a40784c7c2f4", null ]
+    ] ]
+];

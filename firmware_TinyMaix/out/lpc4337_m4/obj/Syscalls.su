@@ -1,0 +1,10 @@
+Syscalls.c:20:7:_sbrk	24	static
+Syscalls.c:35:5:_kill	16	static
+Syscalls.c:41:5:_getpid	4	static
+Syscalls.c:46:6:_exit	16	static
+Syscalls.c:51:5:_execve	24	static
+Syscalls.c:57:5:_fork	4	static
+Syscalls.c:63:5:_wait	16	static
+Syscalls.c:132:5:_close	16	static
+Syscalls.c:137:5:_times	16	static
+Syscalls.c:142:5:_gettimeofday	16	static

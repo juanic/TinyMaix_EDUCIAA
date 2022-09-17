@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['l_5156',['L',['../struct_l_p_c___s_c_t___t.html#ac73594dbfa9ce3fcc7ce43435dad7b88',1,'LPC_SCT_T::L()'],['../struct___w_b___t.html#a29f33d98a209b8353b29f66cd48de5e8',1,'_WB_T::L()']]],
+  ['lar_5157',['LAR',['../group___c_m_s_i_s__core___debug_functions.html#ga97840d39a9c63331e3689b5fa69175e9',1,'ITM_Type']]],
+  ['last_5fsample_5158',['LAST_SAMPLE',['../struct_l_p_c___h_s_a_d_c___t.html#aed484ed99f64f433af38776cca39f0a9',1,'LPC_HSADC_T']]],
+  ['lcd_5159',['LCD',['../struct_l_c_d___c_o_n_f_i_g___t.html#a1eda2297e9d1a5a027c7e0aa68da0b47',1,'LCD_CONFIG_T']]],
+  ['lcr_5160',['LCR',['../struct_l_p_c___u_s_a_r_t___t.html#aee4d95152fdd5222436368295e4307c2',1,'LPC_USART_T']]],
+  ['le_5161',['LE',['../struct_l_p_c___l_c_d___t.html#a5aac26c848401f1f369d7bf65c428036',1,'LPC_LCD_T']]],
+  ['len_5162',['len',['../struct___h_i_d___r_e_p_o_r_t___t.html#a4c0e68b7360c08788605db4eb667cb4e',1,'_HID_REPORT_T']]],
+  ['length_5163',['length',['../struct_chip___s_s_p___d_a_t_a___s_e_t_u_p___t.html#ac5202ff04a3ed639dce258e31a9000d6',1,'Chip_SSP_DATA_SETUP_T']]],
+  ['lim_5164',['LIM',['../struct_l_p_c___m_c_p_w_m___t.html#a01c2889381949b5b1f8c2bf8edf9148c',1,'LPC_MCPWM_T']]],
+  ['limit_5fh_5165',['LIMIT_H',['../struct_l_p_c___s_c_t___t.html#a7745725634b90b99fde9a359335b6f75',1,'LPC_SCT_T']]],
+  ['limit_5fl_5166',['LIMIT_L',['../struct_l_p_c___s_c_t___t.html#a6f5626b36bdb894610f6acb72520cd6b',1,'LPC_SCT_T']]],
+  ['lli_5167',['lli',['../struct_d_m_a___transfer_descriptor.html#ad53035ccb28664c56800a73bb20a7c79',1,'DMA_TransferDescriptor::lli()'],['../struct_g_p_d_m_a___c_h___t.html#a240936dbac9f3a949572b3dd196bd83f',1,'GPDMA_CH_T::LLI()']]],
+  ['load_5168',['LOAD',['../group___c_m_s_i_s__core___debug_functions.html#gae7bc9d3eac1147f3bba8d73a8395644f',1,'SysTick_Type::LOAD()'],['../struct_l_p_c___q_e_i___t.html#aab13bc1fd1ecc6539d985d00a2beb756',1,'LPC_QEI_T::LOAD()']]],
+  ['lpbase_5169',['LPBASE',['../struct_l_p_c___l_c_d___t.html#ac954f35c70357ceaa2642b359858852d',1,'LPC_LCD_T']]],
+  ['lpcurr_5170',['LPCURR',['../struct_l_p_c___l_c_d___t.html#a1daeb30c72db80cd8dfcbbe1c60a6c2e',1,'LPC_LCD_T']]],
+  ['lpp_5171',['LPP',['../struct_l_c_d___c_o_n_f_i_g___t.html#ad611d3e672a52a991bc54add20c2006d',1,'LCD_CONFIG_T']]],
+  ['lsr_5172',['LSR',['../group___c_m_s_i_s__core___debug_functions.html#gaaa0515b1f6dd5e7d90b61ef67d8de77b',1,'ITM_Type::LSR()'],['../struct_l_p_c___u_s_a_r_t___t.html#a71f711aab2dc24f42d183abd449ce829',1,'LPC_USART_T::LSR()']]],
+  ['lsucnt_5173',['LSUCNT',['../group___c_m_s_i_s__core___debug_functions.html#gaeba92e6c7fd3de4ba06bfd94f47f5b35',1,'DWT_Type']]]
+];

@@ -1,0 +1,5 @@
+cyclesCounter.c:70:6:cyclesCounterConfig	16	static
+cyclesCounter.c:82:10:cyclesCounterRead	4	static
+cyclesCounter.c:93:6:cyclesCounterReset	4	static
+cyclesCounter.c:105:7:cyclesCounterToUs	24	static
+cyclesCounter.c:118:7:cyclesCounterToMs	24	static

@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['ccan_5flec_5ft_5664',['CCAN_LEC_T',['../group___c_c_a_n__18_x_x__43_x_x.html#gad7a3e9e736dfb04f5faff4954a01591a',1,'ccan_18xx_43xx.h']]],
+  ['ccan_5ftransfer_5fdir_5ft_5665',['CCAN_TRANSFER_DIR_T',['../group___c_c_a_n__18_x_x__43_x_x.html#gac400be6c4ae22b8b773b0bea6e9c5f02',1,'ccan_18xx_43xx.h']]],
+  ['chip_5fadc_5fchannel_5666',['CHIP_ADC_CHANNEL',['../group___a_d_c__18_x_x__43_x_x.html#ga67b0a9ec8f34cf712b1f1c0119ba3d50',1,'adc_18xx_43xx.h']]],
+  ['chip_5fadc_5fedge_5fcfg_5667',['CHIP_ADC_EDGE_CFG',['../group___a_d_c__18_x_x__43_x_x.html#gaba28e4e0734cc41087bae0c96d5090a8',1,'adc_18xx_43xx.h']]],
+  ['chip_5fadc_5fresolution_5668',['CHIP_ADC_RESOLUTION',['../group___a_d_c__18_x_x__43_x_x.html#ga6da04ef4d158a6d61909481ed94df1a3',1,'adc_18xx_43xx.h']]],
+  ['chip_5fadc_5fstart_5fmode_5669',['CHIP_ADC_START_MODE',['../group___a_d_c__18_x_x__43_x_x.html#ga125e3c848732e5fa6e064354f618f57c',1,'adc_18xx_43xx.h']]],
+  ['chip_5faes_5fop_5fmode_5670',['CHIP_AES_OP_MODE',['../group___a_e_s__18_x_x__43_x_x.html#gae6ec18c3dfb817d9b4440eaaf6edd3e5',1,'aes_18xx_43xx.h']]],
+  ['chip_5fcgu_5fclkin_5671',['CHIP_CGU_CLKIN',['../group___c_l_o_c_k__18_x_x__43_x_x.html#ga419aa2b9970dcf4930eb44871da9e377',1,'chip_clocks.h']]],
+  ['chip_5fcgu_5fusb_5faudio_5fpll_5672',['CHIP_CGU_USB_AUDIO_PLL',['../group___c_l_o_c_k__18_x_x__43_x_x.html#gabdd04536f16b3c7b588757d024e53da6',1,'cguccu_18xx_43xx.h']]],
+  ['chip_5fevrt_5fsrc_5673',['CHIP_EVRT_SRC',['../group___e_v_r_t__18_x_x__43_x_x.html#gad3cd727405aa5446c2319375ad1b7276',1,'evrt_18xx_43xx.h']]],
+  ['chip_5fevrt_5fsrc_5factive_5674',['CHIP_EVRT_SRC_ACTIVE',['../group___e_v_r_t__18_x_x__43_x_x.html#ga721fc5bcb9c562312b880ba4cd5b96a6',1,'evrt_18xx_43xx.h']]],
+  ['chip_5fotp_5fboot_5fsrc_5675',['CHIP_OTP_BOOT_SRC',['../group___o_t_p__18_x_x__43_x_x.html#ga6e90c3dfad51a2a8591e531b0a788134',1,'otp_18xx_43xx.h']]],
+  ['chip_5fpmc_5fpwr_5fstate_5ft_5676',['CHIP_PMC_PWR_STATE_T',['../group___p_m_c__18_x_x__43_x_x.html#ga69f642b5034785c56bb9c45e4dd780de',1,'pmc_18xx_43xx.h']]],
+  ['chip_5frgu_5frst_5677',['CHIP_RGU_RST',['../group___r_g_u__18_x_x__43_x_x.html#gaba95b3f477c73ccfad274a65a9c97a9e',1,'rgu_18xx_43xx.h']]],
+  ['chip_5fsct_5fevent_5678',['CHIP_SCT_EVENT',['../group___s_c_t__18_x_x__43_x_x.html#gae9508d79393246da4eda561eff0ec9e3',1,'sct_18xx_43xx.h']]],
+  ['chip_5fsct_5fmatch_5freg_5679',['CHIP_SCT_MATCH_REG',['../group___s_c_t__18_x_x__43_x_x.html#ga642884ed46b523a1106a6505950e0259',1,'sct_18xx_43xx.h']]],
+  ['chip_5fssp_5fbits_5680',['CHIP_SSP_BITS',['../group___s_s_p__18_x_x__43_x_x.html#ga2f99e08511788c146ae9b35023e4a61c',1,'ssp_18xx_43xx.h']]],
+  ['chip_5fssp_5fclock_5fformat_5681',['CHIP_SSP_CLOCK_FORMAT',['../group___s_s_p__18_x_x__43_x_x.html#gab423240914ad746147aeb31f483e9553',1,'ssp_18xx_43xx.h']]],
+  ['chip_5fssp_5fframe_5fformat_5682',['CHIP_SSP_FRAME_FORMAT',['../group___s_s_p__18_x_x__43_x_x.html#gad3ae555ad43caa2b2a47bc4769d8fe50',1,'ssp_18xx_43xx.h']]],
+  ['chip_5fssp_5fmode_5683',['CHIP_SSP_MODE',['../group___s_s_p__18_x_x__43_x_x.html#ga2a375ed10848e3661b9b015fea1cf39b',1,'ssp_18xx_43xx.h']]],
+  ['creg_5fflashtim_5ft_5684',['CREG_FLASHTIM_T',['../group___c_r_e_g__18_x_x__43_x_x.html#gaecbf266e1dc43b19d1cca3b7cc800786',1,'creg_18xx_43xx.h']]]
+];
