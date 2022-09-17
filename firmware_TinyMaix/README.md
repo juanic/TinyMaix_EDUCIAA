@@ -1,11 +1,47 @@
 
-![Scheme|30%](fiuner.png)
-#TinyMaix port to EDU-CIAA platform
------------
+# Port TinyMaix to LPC4337
 
-#Usage
+## Chip
+
+| Item         | Parameter      |
+| ------------ | -------------  | 
+| Chip         | LPC4337        |
+| Arch         | ARM Cortex M4F |
+| Freq         | 204M           |
+| Flash        | 1 MB	          |
+| RAM          | 136 kB         |
+| Acceleration | ARM SIMD       |
+
+## Board
+
+EDU-CIAA  
+
+
+## Development Environment
+
+MCUXpresso IDE v11.2.0
+
+## Step/Project
+
 -Import to MXUXpresso as New-> Other -> Makefile Project with existing code
 -Modify project.mk to select project to build
+
+## Result
+
+| config  | mnist | cifar | vww96  | mbnet96 | Note |
+| ------- | ----- | ----- | ------ | ------- | ---- |
+| O0 CPU  | 7.51  | 817.14| 1701.5 | 1762.5  |      |
+| O1 CPU  | 7.51  | 817.14| 1701.5 | XXX     |      |
+| O0 SIMD | 2.95  | 91.17 | 626.67 | 653.85  |      |
+| O1 SIMD | 2.95  | 91.17 | 626.67 | XXX     |      |
+
+
+## Author
+
+[Juan Ignacio Cerrudo](https://github.com/juanic) 
+
+
+
 
 
 
